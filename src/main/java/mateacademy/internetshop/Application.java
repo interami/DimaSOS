@@ -18,6 +18,7 @@ public class Application {
     }
 
     public static void initializedDb(ProductService productService) {
+
         Product product1 = new Product("BMV", 70_00);
         Product product2 = new Product("Audi", 77_0);
         Product product3 = new Product("Opel", 10_0);
